@@ -1,6 +1,6 @@
 import { Footer } from 'flowbite-react';
 import { Link } from 'react-router-dom';
-import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from 'react-icons/bs';
+// import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from 'react-icons/bs';
 
 const FooterComponent = () => {
     return (
@@ -25,8 +25,8 @@ const FooterComponent = () => {
                         <div>
                             <Footer.Title title="help center" />
                             <Footer.LinkGroup col>
-                                <Footer.Link href="#">LinkedIN</Footer.Link>
-                                <Footer.Link href="#">Contact Us</Footer.Link>
+                                <Footer.Link href="https://www.linkedin.com/in/vaibhav-sharma-a94678200/">LinkedIN</Footer.Link>
+                                <Footer.Link href="https://wa.me/+918171859047">Contact Us</Footer.Link>
                             </Footer.LinkGroup>
                         </div>
                         <div>
@@ -43,13 +43,13 @@ const FooterComponent = () => {
                 <Footer.Divider />
                 <div className="w-full  px-4 py-6 flex flex-col justify-center sm:flex-row sm:flex sm:items-center sm:justify-between">
                     <Footer.Copyright href="#" by="vaibhavsharma987s6@gmail.com" year={2024} />
-                    <div className="mt-4 flex justify-center space-x-6 sm:mt-0 sm:justify-center">
+                    {/* <div className="mt-4 flex justify-center space-x-6 sm:mt-0 sm:justify-center">
                         <Footer.Icon href="#" icon={BsFacebook} />
                         <Footer.Icon href="#" icon={BsInstagram} />
                         <Footer.Icon href="#" icon={BsTwitter} />
                         <Footer.Icon href="#" icon={BsGithub} />
                         <Footer.Icon href="#" icon={BsDribbble} />
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </Footer>
